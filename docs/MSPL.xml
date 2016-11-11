@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ITResource xmlns="http://modeliosoft/xsddesigner/a22bd60b-ee3d-425c-8618-beb6a854051a/ITResource.xsd" ID="MSPL_5feeaaae-5b0c-4a63-a897-dcf3e6249216">
+    <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RuleSetConfiguration">
+        <capability>
+            <Name>Filtering_L4</Name>
+        </capability>
+        <defaultAction xsi:type="FilteringAction">
+            <FilteringActionType>ALLOW</FilteringActionType>
+        </defaultAction>
+        <configurationRule>
+            <configurationRuleAction xsi:type="FilteringAction">
+                <FilteringActionType>DENY</FilteringActionType>
+            </configurationRuleAction>
+            <configurationCondition xsi:type="FilteringConfigurationCondition">
+                <isCNF>false</isCNF>
+                <packetFilterCondition>
+                    <SourceAddress>0.0.0.0/0.0.0.0,</SourceAddress>
+                </packetFilterCondition>
+            </configurationCondition>
+            <externalData xsi:type="Priority">
+                <value>0</value>
+            </externalData>
+            <Name>Rule0</Name>
+            <isCNF>false</isCNF>
+            <HSPL HSPL_id="hspl49" HSPL_text="alice no_authorise_access internet_traffic "/>
+        </configurationRule>
+        <resolutionStrategy xsi:type="FMR"/>
+        <Name>MSPL_5feeaaae-5b0c-4a63-a897-dcf3e6249216</Name>
+    </configuration>
+</ITResource>

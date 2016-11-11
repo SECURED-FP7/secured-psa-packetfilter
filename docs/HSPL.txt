@@ -1,0 +1,4 @@
+-Iptables
+
+Alice is not authorized to access Internet traffic (type of content, {illegal websites})
+Alice is authorized to access Internet traffic (time period, {18:30-20:00 Europe/Rome})

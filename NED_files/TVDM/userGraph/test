@@ -1,0 +1,24 @@
+{
+	"name": "user_profile_type",
+	"user_token": "",
+	"profile_type": "AD",			
+
+	"PSASet": [
+		
+		{
+			"id": "iptables",
+			"security_controls": [
+				
+				{
+					"imgName": "iptables.img",
+					"conf_id":"psaConf"
+				}
+				
+			] 
+			
+		}
+	], 
+	
+	"ingress_flow": ["12345"],
+	"egress_flow": ["12345"]
+}

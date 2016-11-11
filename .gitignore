@@ -1,0 +1,7 @@
+*.pyc
+*.log
+*.swp
+*.pyc
+.DS_Store
+.fuse_*
+*.*~
